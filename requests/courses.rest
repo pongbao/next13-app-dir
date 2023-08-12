@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{
+  "title": "My Course",
+  "description": "This is my course",
+    "level": "Beginner",
+  "link": "https://something.com"
+}
